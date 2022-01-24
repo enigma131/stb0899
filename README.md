@@ -7,7 +7,7 @@ As it is based on kernel module replacing, you need first to install closest ker
 
 As example, for Debian Bullseye, you can take : 
 
-sudo wget https://mirrors.edge.kernel.org/pub/linux/kernel/v5.x/linux-5.10.tar.xz
+wget https://mirrors.edge.kernel.org/pub/linux/kernel/v5.x/linux-5.10.tar.xz
 
 Then uncompress it to the right directory:
 
