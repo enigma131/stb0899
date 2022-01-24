@@ -3,7 +3,7 @@ Dkms tweaked kernel module for low C/N.
 
 This module source will create a new Linux kernel demodulator module with enhanced capabilities (performance for low C/N signal, restore signal monitoring ...). This module is part of my TechnoTrend TT-budget S2-3200 PCI card and also in other devices. Tuner tweaks (second repository stb6100) can also be used if included in device (my use case). Total changes from Linux sources are in separate file ListOfChanges. I use it since kernel 4.x on different distributions (Ubuntu, Debian, Arch ,Fedora, Redhat).
 
-Installing:
+## Installing:
 
 As it is based on kernel module replacing, you need first to install closest kernel source for your distribtion.
 
