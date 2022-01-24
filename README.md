@@ -1,7 +1,9 @@
 # stb0899
 Dkms tweaked kernel module for low C/N.
 
-This module source will create a new Linux kernel module with enhanced capabilities (performance for low C/N signal, restore signal monitoring ...)
+This module source will create a new Linux kernel demodulator module with enhanced capabilities (performance for low C/N signal, restore signal monitoring ...). This module is part of my TechnoTrend TT-budget S2-3200 PCI card and also in other devices. Tuner tweaks (second repository stb6100) cand also be used if used by device (my use case). Total changes from Linux sources are in separate file ListOfChanges. I've use it since kernel 4.x on different distributions (Ubuntu, Debian, Arch ,Fedora, Redhat).
+
+Installing:
 
 As it is based on kernel module replacing, you need first to install closest kernel source for your distribtion.
 
@@ -9,7 +11,7 @@ As example, for Debian Bullseye, you can take :
 
     wget https://mirrors.edge.kernel.org/pub/linux/kernel/v5.x/linux-5.10.tar.xz
 
-Then uncompress it to the right directory:
+Then uncompress it to the source directory:
 
     sudo tar -xf linux-5.10.tar.xz -C /usr/src
 
@@ -17,11 +19,11 @@ Next, get the repository to local:
 
     git clone https://github.com/enigma131/stb0899.git
 
-Here, you have to adjust the rigt kernel path for KERNSRC and KERNELSOURCE in Makefile:
+If different kernel, you have to adjust the rigt path for KERNSRC and KERNELSOURCE in Makefile:
 
     nano stb0899/Makefile 
 
-Make changes and save the file.
+If changes made, save the file.
 
 Initialize the DKMS structure:
 
@@ -37,4 +39,4 @@ Verify résult :
 
     modinfo stb0899
 
-Rebbot and test
+Reboot and test
