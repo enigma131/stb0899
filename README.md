@@ -25,7 +25,7 @@ Make changes and save the file.
 
 Initialize the DKMS structure:
 
-sudo dkms ./stb0899
+sudo dkms add ./stb0899
 
 Compile source / Install DKMS:
 
