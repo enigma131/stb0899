@@ -7,34 +7,34 @@ As it is based on kernel module replacing, you need first to install closest ker
 
 As example, for Debian Bullseye, you can take : 
 
-wget https://mirrors.edge.kernel.org/pub/linux/kernel/v5.x/linux-5.10.tar.xz
+    wget https://mirrors.edge.kernel.org/pub/linux/kernel/v5.x/linux-5.10.tar.xz
 
 Then uncompress it to the right directory:
 
-sudo tar -xf linux-5.10.tar.xz -C /usr/src
+    sudo tar -xf linux-5.10.tar.xz -C /usr/src
 
 Next, get the repository to local:
 
-git clone https://github.com/enigma131/stb0899.git
+    git clone https://github.com/enigma131/stb0899.git
 
 Here, you have to adjust the rigt kernel path for KERNSRC and KERNELSOURCE in Makefile:
 
-nano stb0899/Makefile 
+    nano stb0899/Makefile 
 
 Make changes and save the file.
 
 Initialize the DKMS structure:
 
-sudo dkms add ./stb0899
+    sudo dkms add ./stb0899
 
 Compile source / Install DKMS:
 
-sudo dkms install stb0899/enigma13
+    sudo dkms install stb0899/enigma13
 
 Verify résult :
 
-dkms status
+    dkms status
 
-modinfo stb0899
+    modinfo stb0899
 
 Rebbot and test
