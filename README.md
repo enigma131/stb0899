@@ -4,7 +4,7 @@ This module source will create a new Linux kernel demodulator module with enhanc
 
 Tuner tweaks (second repository stb6100) can also be used if included in device (my use case).
 
-Total changes from Linux sources are in separate file ListOfChanges. 
+Total changes from Linux sources are in separate file [ListOfChanges](ListOfChanges). 
 
 I use it since kernel 4.x on different distribution familys (Ubuntu, Debian, Arch ,Fedora, Redhat).
 
