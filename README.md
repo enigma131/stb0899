@@ -6,7 +6,7 @@ Tuner tweaks (second repository stb6100) can also be used if included in device 
 
 Total changes from Linux sources are in separate file ListOfChanges. 
 
-I use it since kernel 4.x on different distributions (Ubuntu, Debian, Arch ,Fedora, Redhat).
+I use it since kernel 4.x on different distribution familys (Ubuntu, Debian, Arch ,Fedora, Redhat).
 
 ## Installing:
 
