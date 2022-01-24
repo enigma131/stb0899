@@ -19,7 +19,7 @@ Next, get the repository to local:
 
     git clone https://github.com/enigma131/stb0899.git
 
-If different kernel, you have to adjust the rigt path for KERNSRC and KERNELSOURCE in Makefile:
+If different kernel, you have to adjust the right path for KERNSRC and KERNELSOURCE in Makefile:
 
     nano stb0899/Makefile 
 
