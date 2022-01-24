@@ -39,7 +39,7 @@ Compile source / Install DKMS:
 
     sudo dkms install stb0899/enigma13
 
-Verify résult :
+Verify result :
 
     dkms status
 
