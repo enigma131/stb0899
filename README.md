@@ -11,7 +11,7 @@ wget https://mirrors.edge.kernel.org/pub/linux/kernel/v5.x/linux-5.10.tar.xz
 
 Then uncompress it to the right directory:
 
-sudo tar -xf linux-5.10.tar.xz /usr/src
+sudo tar -xf linux-5.10.tar.xz -C /usr/src
 
 Next, get the repository to local:
 
