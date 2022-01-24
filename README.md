@@ -22,3 +22,5 @@ Here, you have to adjust the rigt kernel path for KERNSRC and KERNELSOURCE in Ma
 nano stb0899/Makefile 
 
 Make changes and save the file.
+
+... to finish
