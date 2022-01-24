@@ -1,5 +1,5 @@
 # stb0899
-Dkms tweaked kernel module for low C/N
+Dkms tweaked kernel module for low C/N.
 
 This module source will create a new Linux kernel module with enhanced capabilities (performance for low C/N signal, restore signal monitoring ...)
 
@@ -23,4 +23,18 @@ nano stb0899/Makefile
 
 Make changes and save the file.
 
-... to finish
+Initialize the DKMS structure:
+
+sudo dkms ./stb0899
+
+Compile source / Install DKMS:
+
+sudo dkms install stb0899/enigma13
+
+Verify résult :
+
+dkms status
+
+modinfo stb0899
+
+Rebbot and test
