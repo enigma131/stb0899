@@ -2,6 +2,7 @@
 Dkms module tweaked driver for low C/N
 
 This module source will create a new Linux kernel module with enhanced capabilities (performance for low C/N signal, restore signal monitoring ...)
+
 As it is based on inline kernel module replacing, you need first to install closest kernel source for your distribtion.
 Example, for Debian Bullseye, you can take : 
 sudo wget https://mirrors.edge.kernel.org/pub/linux/kernel/v5.x/linux-5.10.tar.xz
