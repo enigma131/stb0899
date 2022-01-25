@@ -10,7 +10,7 @@ I use it since kernel 4.x on different distribution familys (Ubuntu, Debian, Arc
 
 ## Installing:
 
-As it is based on kernel module replacing and is linked to others media sources of kernel, you need first to install closest kernel source for your distribtion.
+This module is based on kernel module replacing and is linked to others media sources of kernel, you need first to install closest kernel source for your distribtion.
 
 As example, for Debian Bullseye, you can take : 
 
