@@ -28,7 +28,7 @@ If different kernel, you have to adjust the right path for KERNSRC and KERNELSOU
 
     nano stb0899/Makefile 
 
-If changes made, save the file.
+If changes made, save the file then exit nano.
 
 Initialize the DKMS structure:
 
