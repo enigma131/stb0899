@@ -10,7 +10,7 @@ I use it since kernel 4.x on different distribution familys (Ubuntu, Debian, Arc
 
 ## Installing:
 
-This module is based on kernel module replacing and is linked to others media sources of kernel, you need first to install closest kernel source for your distribtion.
+To compile the driver, you need to have make, compiler and kernel headers installed. This module is based on kernel module replacing and is linked to others media sources of kernel, so you need first to install closest kernel source for your distribtion (about 1 Gb space required).
 
 As example, for Debian Bullseye, you can take : 
 
