@@ -1,6 +1,6 @@
 # stb0899
 
-This module source will create a new Linux kernel demodulator module with enhanced capabilities (performance for low C/N signal, restore signal monitoring ...). This module is part of my TechnoTrend TT-budget S2-3200 PCI card and also in other devices: https://www.linuxtv.org/wiki/index.php/STMicroelectronics_STB0899
+This module source will create a new Linux kernel demodulator module with enhanced capabilities (performance for low C/N signal, restore signal monitoring ...). This module is part of my TechnoTrend TT-budget S2-3200 PCI card and also in other [devices](https://www.linuxtv.org/wiki/index.php/STMicroelectronics_STB0899)
 
 Tuner tweaks (second repository [stb6100](https://github.com/enigma131/stb6100)) can also be used if included in device (my use case).
 
