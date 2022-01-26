@@ -1,4 +1,4 @@
-## stb0899_algo.c :
+## stb0899_algo.c:
 stb0899_dvbs2_config_uwp     : no more read because all sub registers are write
 stb0899_dvbs2_config_csm_auto: no more read
 stb0899_dvbs2_set_btr_loopbw : no read at end, complete register is set in sub
@@ -10,18 +10,16 @@ stb0899_dvbs2_get_dmd_status : adjust msleep
 stb0899_dvbs2_get_fec_status : use udelay instead of msleep which is not precise enough for 1 ms
 stb0899_dvbs2_algo           : replace 1 reads
 
-
-stb0899_cfg.h :
+## stb0899_cfg.h :
 BBAGCCNTRL & TSTR            : modify for modules configuration compilation
 
-
-stb0899_drv.c :
+## stb0899_drv.c :
 _stb0899_read_s2reg          : add test to not repeat demod and fec selector writing if repeated reads in same range
 stb0899_write_s2reg          : add test to not repeat demod and fec selector writing if repeated writes in same range
 stb0899_write_regs           : suppress bug ID 9, it's only for reads
 stb0899_init_calc            : addings according to datashheet
 stb0899_send_diseqc_burst    : set dummy routine, some sw send this command AFTER diseqc cmd -> diseqc>2 diden't work
-                               this bug is found in libdvbv5 lib : libdvbv5/dvb-sat.c and compiled in 
+                               this bug is found in libdvbv5 lib : libdvbv5/dvb-sat.c
 stb0899_set_delivery         : moved ahead
 stb0899_wakeup               : suppress what is done in init
 stb0899_search               : add wite RRCalpha
@@ -34,7 +32,7 @@ stb0899_read_snr             : normalyse result for back-end
 stb0899_ops                  : suppress .init, move stb0899_init call in attach like TT driver
                              : -----> diseqc + tuner + demod + fec lock time now 350ms with this trick
 
-stb0899_reg.h :
+## stb0899_reg.h :
 correct #define STB0899_OFFST_IF_AGC_LOCK 0 -> 8  , was false, for if agc lock
 STB0899_TSTRS3               : was false value
 
