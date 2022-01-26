@@ -1,4 +1,4 @@
-stb0899_algo.c :
+** stb0899_algo.c :
 stb0899_dvbs2_config_uwp     : no more read because all sub registers are write
 stb0899_dvbs2_config_csm_auto: no more read
 stb0899_dvbs2_set_btr_loopbw : no read at end, complete register is set in sub
