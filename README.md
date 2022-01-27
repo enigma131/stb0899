@@ -10,15 +10,7 @@ I use it since kernel 4.x on different distribution familys (Ubuntu, Debian, Arc
 
 ## Installing:
 
-To compile the driver, you need to have make, compiler and kernel headers installed. This module is based on kernel module replacing and is linked to others media sources of kernel, so you need first to install closest kernel source for your distribtion (about 1 Gb space required).
-
-As example, for Debian Bullseye, you can take : 
-
-    wget https://mirrors.edge.kernel.org/pub/linux/kernel/v5.x/linux-5.10.tar.xz
-
-Then uncompress it to the source directory:
-
-    sudo tar -xf linux-5.10.tar.xz -C /usr/src
+To compile the driver, you need to have make, compiler and kernel headers installed. This module is based on kernel module replacing and is linked to others media sources of kernel, so you need first to [install](KernelInstall.md) closest kernel source for your distribtion.
 
 Next, get the repository to local:
 
