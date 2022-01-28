@@ -32,8 +32,8 @@ Compile source / Install DKMS:
 
 Verify result :
 
-    dkms status
+    sudo dkms status
 
-    modinfo stb0899
+    sudo modinfo stb0899
 
 Reboot and test
