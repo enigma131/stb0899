@@ -652,7 +652,7 @@ static void stb0899_release(struct dvb_frontend *fe)
 
 	dprintk(state->verbose, FE_DEBUG, 1, "Release Frontend");
 
-	stb0899_postproc(state, STB0899_POSTPROC_GPIO_POWER, 0); // mgba
+	stb0899_postproc(state, STB0899_POSTPROC_GPIO_POWER, 0);
 
 	kfree(state); 
 }
