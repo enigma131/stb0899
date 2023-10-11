@@ -1732,7 +1732,9 @@ error:
 	kfree(state);
 	return NULL;
 }
-EXPORT_SYMBOL(stb0899_attach);
+// modification for kernels from and icluding: 6.1.53, 5.15.132, 5.4.257...
+EXPORT_SYMBOL_GPL(stb0899_attach);
+// EXPORT_SYMBOL(stb0899_attach);
 MODULE_PARM_DESC(verbose, "Set Verbosity level");
 MODULE_AUTHOR("Manu Abraham, Enigma13");
 MODULE_DESCRIPTION("STB0899 no .release");
